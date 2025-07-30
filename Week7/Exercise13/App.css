@@ -1,0 +1,31 @@
+/* Layout: 3 columns side-by-side */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Each vertical column */
+.section {
+  width: 30%;
+  border-left: 3px solid green;
+  padding-left: 20px;
+}
+
+/* Section header */
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Each card vertically stacked */
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
